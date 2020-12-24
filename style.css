@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+
+/* top and bottom section */
+
+.top-section{
+  display: flex;
+  justify-content: center;
+  width:1200px;
+  margin: auto;
+}
+
+.bottom-section{
+  display:flex;
+  justify-content: center;
+  width:1200px;
+  margin: auto;
+
+}
+
+
+
+.header h1{
+width:40%;
+margin-top: 100px;
+font-weight:bolder;
+color:hsl(300, 43%, 22%);
+}
+
+.header p{
+  width: 75%;
+  color: hsl(303, 10%, 53%);
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h4 {
+    color:  hsl(300, 24%, 96%);
+    line-height: 0.5;
+    margin-bottom: 1px;
+}
+
+.stars p {
+  display: inline-block;
+  font-weight: bolder;
+  color:hsl(300, 43%, 22%);
+  line-height: 28px;
+  font-size: 15px;
+}
+.stars img:nth-child(1){
+  margin-left:50px;
+}
+.stars img:nth-child(5){
+  margin-right:50px;
+}
+
+.star{
+  width:500px;
+  height:50px;
+  background-color:hsl(300, 24%, 93%) ;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align:justify;
+
+}
+
+.star:nth-child(1){
+  margin-top: 100px;
+
+}
+.star:nth-child(2){
+margin-left: 50px;
+}
+.star:nth-child(3){
+margin-left: 100px;
+
+}
+
+
+
+
+/* bottom section with cards */
+
+
+.card{
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px 20px;
+  border-radius: 10px;
+  line-height: 1.5;
+  margin-top: 80px;
+  min-height: 210px;
+  max-height: 210px;
+}
+
+.card:nth-child(1){
+  margin-right: 30px;
+
+}
+.card:nth-child(2){
+    margin-top: 100px;
+}
+.card:nth-child(3){
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.card img{
+  border-radius: 50px;
+  float: left;
+  margin-right: 30px;
+  width:20%;
+}
+
+.card p{
+color:  hsl(300, 24%, 96%);
+}
+
+.pink{
+  color:hsl(333, 80%, 67%);
+  padding-bottom:30px;
+}
