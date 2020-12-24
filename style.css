@@ -9,6 +9,9 @@ body{
 
 
 /* top and bottom section */
+ .main{
+   height:100vh;
+ }
 
 .top-section{
   display: flex;
